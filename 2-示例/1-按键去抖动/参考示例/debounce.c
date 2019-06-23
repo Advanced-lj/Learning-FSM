@@ -56,7 +56,7 @@ uint8_t keyDetect(void)
             {
                 keyState = KEY_STATE_RELEASE;  // 回到按键松开的状态
             }
-            return NOT_PRESSED;
+            return PRESSED;
             break;
         default:
             keyState = KEY_STATE_RELEASE;
